@@ -1,0 +1,32 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Bonjour, comment ça va ?"
+      ],
+      "responses": [
+        "Bonjour ! Je vais tres bien, merci. Et toi ?"
+      ]
+    },
+    {
+      "tag": "list_python",
+      "patterns": [
+        "Expliquez-moi comment fonctionne une liste en Python."
+      ],
+      "responses": [
+        "En Python, une liste est une structure de donnees qui permet de stocker et d'organiser plusieurs elements de maniere ordonnee et modifiable.\nElle est definie en utilisant des crochets [] et les elements sont separes par des virgules."
+      ]
+    },
+    {
+      "tag": "arc_en_ciel",
+      "patterns": [
+        "Pouvez-vous générer un poème sur un arc-en-ciel ?"
+      ],
+      "responses": [
+        "Dans le ciel après l averse,\nApparait un doux univers,Un tableau de couleurs vives,\nQui enchante nos yeux avides.\n\nL'arc-en-ciel se déploie fièrement,\nUn pont entre le ciel et la terre,\nSept nuances qui se complémentent,\nUne symphonie de lumières éphémères."
+      ]
+    }
+    
+  ]
+}
